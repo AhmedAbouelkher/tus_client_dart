@@ -1,0 +1,17 @@
+name: tus_client_dart
+description: A tus client for dart allowing resumable uploads using the tus protocol.
+version: 2.3.0
+homepage: https://github.com/tomassasovsky/tus_client
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:  
+  cross_file:
+  http:
+  exponential_back_off: ^0.1.0+2
+
+dev_dependencies:
+  mockito: ^5.2.0
+  test: ^1.21.1
+  build_runner: any
